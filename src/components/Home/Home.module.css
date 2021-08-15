@@ -1,0 +1,90 @@
+.image{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.beno{
+width: 500px;
+position: absolute;
+top: 30px;
+right: 97px;
+border: 2px solid #887b7b;
+background-color: rgb(255, 255, 255);
+border-radius: 24px;
+
+}
+
+.wording{
+position: absolute;
+top: 186px;
+left: 90px;
+border-radius: 24px;
+color:rgb(126, 124, 122);
+font-size: 20px;
+text-align: initial;
+}
+
+.parent{
+    
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.greetings{
+    color: white;
+    font-size: 54px;
+    padding: 10px 2px 3px 1px;
+}
+
+
+.sliderWrapper{
+    color: rgba(192, 7, 7, 0.966);
+    font-weight: bold;
+    font-size: 40 !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.slider div{
+    height: 50px;
+    margin-bottom: 50px;
+
+}
+
+.slider{
+  height: 50px;
+  overflow: hidden;
+  font-size: 40px;
+
+}
+
+.sliderText1{
+
+animation: slide 7s linear infinite;
+}
+.sliderText2{
+
+
+}
+.sliderText3{
+
+
+}
+.sliderText4{
+
+
+}
+
+@keyframes slide {
+    0% {margin-top:-400px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;} 
+    66% {margin-top:-100px;} 
+    71% {margin-top: 0px;} 
+    100% {margin-top:0px;} 
+}
