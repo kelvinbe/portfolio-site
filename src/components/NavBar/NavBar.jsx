@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Navbar from 'react-bootstrap/Navbar';
+
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import facebook from '../../assets/facebook.png'
@@ -11,9 +12,10 @@ import styles from './NavBar.module.css';
 
 
 
+
 const NavBar = props => {
     return (
-    <Navbar bg="dark" variant="dark"  expand='sm'>
+    <Navbar bg="dark" variant="dark"  expand='sm' fixed='top'>
     <Container className={styles.firstNav}>
     <Navbar.Brand href="#home">KevDevelops</Navbar.Brand>
     <Nav className="me-auto">
