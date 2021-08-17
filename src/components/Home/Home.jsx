@@ -21,7 +21,7 @@ const  Home = (props) => {
                 <div className={styles.sliderText3}>React JS enthusiast.</div>
             </div>
             </div>
-            <h1 className={styles.greetings}>based in KENYA</h1>
+            <h1 className={styles.greetings}>based in KENYA.</h1>
 
 
         </div>

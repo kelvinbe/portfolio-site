@@ -1,7 +1,9 @@
 import logo from './logo.svg';
+import './index.css'
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home'
+import About from './components/About me/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -13,6 +15,9 @@ function App() {
    </div>
    <div>
      <Home />
+   </div>
+   <div>
+    <About />
    </div>
     </div>
   );
