@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home'
 import About from './components/About me/About';
+import Portfolio from './components/Portfolio/Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -18,6 +19,9 @@ function App() {
    </div>
    <div>
     <About />
+   </div>
+   <div>
+    <Portfolio/>
    </div>
     </div>
   );

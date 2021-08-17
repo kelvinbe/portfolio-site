@@ -79,4 +79,37 @@
   color: #ffffff !important
 }
 
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: black !important;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 41px !important;
+  width: 364px;
+  height: 500px;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: calc(2.25rem - 1px) !important;
+  border-top-right-radius: calc(2.25rem - 1px) !important;
+}
+
+.card:hover{
+
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -4.5) !important;
+  margin-left: calc(var(--bs-gutter-x) * -3.5) !important;
+}
+
 

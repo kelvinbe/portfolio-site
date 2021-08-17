@@ -10,9 +10,6 @@ import twitter from '../../assets/twitter.png'
 import { classes } from 'istanbul-lib-coverage';
 import styles from './NavBar.module.css'; 
 
-
-
-
 const NavBar = props => {
     return (
     <Navbar bg="dark" variant="dark"  expand='sm' fixed='top'>
@@ -21,7 +18,6 @@ const NavBar = props => {
     <Nav className="me-auto">
       <Nav.Link  className={styles.item} href="#home">Home</Nav.Link>
       <Nav.Link className={styles.item} href="#about">About</Nav.Link>
-      <Nav.Link className={styles.item} href="#service">Service</Nav.Link>
       <Nav.Link className={styles.item} href="#portfolio">Portfolio</Nav.Link>
       <Nav.Link className={styles.item} href="#blog">Blog</Nav.Link>
       <Nav.Link className={styles.item} href="#contact">Contact</Nav.Link>

@@ -1,5 +1,7 @@
 .aboutArea{
     background-color: #191919;
+    padding: 120px 0;
+
 }
 
 .aboutContainer{
@@ -13,7 +15,6 @@ width: 500px;
 border: 0px solid #887b7b;
 background-color: rgb(255, 255, 255);
 border-radius: 9px;
-margin-top: 80px;
 
 }
 
