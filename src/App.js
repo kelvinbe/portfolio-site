@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './index.css'
 import './App.css';
+import {Route,Switch, BrowserRouter, withRouter} from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar';
-import Home from './components/Home/Home'
+import Pages from './pages/index'
 import About from './components/About me/About';
+import Portfolio from './components/Portfolio/Portfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (
-    <div className="App">
-   <div>
-     <NavBar/>
+ <BrowserRouter> 
+<div className="App">
+<NavBar />
+  <Switch> 
+<Route path="/" component={Pages} exact />
+<Route path="/about" component={About} />
+<Route path="/portfolio" component={Portfolio} />
+
+   </Switch>
+
    </div>
-   <div>
-     <Home />
-   </div>
-   <div>
-    <About />
-   </div>
-    </div>
+   </BrowserRouter>  
   );
 }
 

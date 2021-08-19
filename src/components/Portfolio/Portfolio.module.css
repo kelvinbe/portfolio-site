@@ -1,0 +1,42 @@
+.portfolioArea{
+    background-color: #101010;
+    padding: 120px 0;
+}
+
+h1{
+    color: white;
+    font-size: 3.5rem !important;
+    
+}
+
+.title{
+    color: white
+}
+
+.button{
+    position: absolute;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    opacity: 0;
+}
+
+.button:hover{
+    position: absolute;
+    top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    opacity: 1;
+}
