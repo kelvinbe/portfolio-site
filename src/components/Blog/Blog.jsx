@@ -27,7 +27,9 @@ function Blog(props) {
             <Col lg='12'>
               <h1>Latest News</h1>
               <p className={styles.title}>
-                Check out my latest blogs
+                Check out my latest blogs on coding, 
+                latest technologies and best practises 
+                and put forward by the vast tech community
               </p>
             </Col>
           </Row>
