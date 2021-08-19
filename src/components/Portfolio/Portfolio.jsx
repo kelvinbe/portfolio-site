@@ -4,13 +4,13 @@ import styles from './Portfolio.module.css'
 import { Row, Col, Container, Card, Button } from 'react-bootstrap'
 import twitter from '../../assets/twitter.jpeg'
 import Tilt from 'react-vanilla-tilt'
+import {Link} from 'react-router-dom'
 
-const projects = [{ proj: { name: 'Modified Twitter App', stack: `React JS ${'  '} Firebase ${' '} HTML5 ${' '} CSS3 ${' '} Javascript` } }, { proj: { name: 'Portfolio Site', stack: 'React JS Firebase HTML5 CSS3' } }, { proj: { name: 'New Proj', stack: 'React JS Firebase HTML5 CSS3' } }]
 
 
-const visitSite = () => {
-  return `https://twitter-api-d8f20.web.app/`
-}
+const projects = [{ proj: { name: 'Modified Twitter App', stack: `React JS ${'  '} Firebase ${' '} MaterialUI HTML5 ${' '} CSS3 ${' '} Javascript`, link: 'https://twitter-api-d8f20.web.app/'} }, { proj: { name: 'Portfolio Site', stack: 'React JS Firebase HTML5 CSS3' } }, { proj: { name: 'New Proj', stack: 'React JS Firebase HTML5 CSS3' } }]
+
+
 
 function Portfolio(props) {
   return (
@@ -31,7 +31,6 @@ function Portfolio(props) {
               return (<Col lg={4} md={6} sm={6} >
                 <Tilt style={{ backgroundColor: 'none' }}>
                   <Card>
-
                     <Card.Img variant="top" src={twitter} />
                     <Card.Text>
                       {project?.proj?.name}
@@ -39,7 +38,7 @@ function Portfolio(props) {
                     <Card.Text>
                       {project?.proj?.stack}
                       <div className={styles.button}>
-                        <Button variant="outline-primary">{project?.proj?.name}</Button>{' '}
+                        <Button as={Link} to={{pathname: project.proj.link}} target="_blank" variant="outline-primary">{project?.proj?.name}</Button>{' '}
                       </div>
                     </Card.Text>
                   </Card>
