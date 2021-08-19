@@ -5,18 +5,12 @@ import { Row, Col, Container, Card, Button } from 'react-bootstrap'
 import mat from '../../assets/material.jpeg'
 import apex from '../../assets/apex.png'
 import secure from '../../assets/secure.png'
-
-
-
-
 import Tilt from 'react-vanilla-tilt'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
 const projects = [{ proj: { name: 'Overriding Material UI Text Field', stack: `Learn how to overide MUI Text Field`, link: 'https://kevdev.hashnode.dev/overriding-material-ui-text-field', img: mat } }, { proj: { name: 'Apex Charts Integration', stack: 'Learn how to integrate apex charts with React', link: '', img: apex } }, { proj: { name: 'Secure Code', stack: 'Writing secure code', link: '', img: secure } }]
-
-
 
 function Blog(props) {
   return (
@@ -27,8 +21,8 @@ function Blog(props) {
             <Col lg='12'>
               <h1>Latest News</h1>
               <p className={styles.title}>
-                Check out my latest blogs on coding, 
-                latest technologies and best practises 
+                Check out my latest blogs on coding,
+                latest technologies and best practises
                 and put forward by the vast tech community
               </p>
             </Col>
@@ -39,14 +33,14 @@ function Blog(props) {
               return (<Col lg={4} md={6} sm={6} >
                 <Tilt style={{ backgroundColor: 'none' }}>
                   <Card>
-                  <Card.Img variant="top" src={project.proj.img} />
+                    <Card.Img variant="top" src={project.proj.img} />
                     <Card.Text>
                       {project?.proj?.name}
                     </Card.Text>
                     <Card.Text>
                       {project?.proj?.stack}
                       <div className={styles.button}>
-                        <Button as={Link} to={{pathname: project.proj.link}} target="_blank" variant="outline-primary">READ MORE</Button>{' '}
+                        <Button as={Link} to={{ pathname: project.proj.link }} target="_blank" variant="outline-primary">READ MORE</Button>{' '}
                       </div>
                     </Card.Text>
                   </Card>

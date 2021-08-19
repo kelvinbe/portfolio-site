@@ -19,7 +19,9 @@ const NavBar = props => {
     <Container className={styles.firstNav}>
     <Navbar.Brand href="#home">KevDevelops</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link as={Link} to="/"  className={styles.item}>Home</Nav.Link>
+      <LinkContainer to="/home">
+      <Nav.Link className={styles.item}>Home</Nav.Link>
+      </LinkContainer>
       <LinkContainer to="/about">
 
       <Nav.Link className={styles.item}>About</Nav.Link>

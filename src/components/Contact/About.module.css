@@ -1,0 +1,61 @@
+.aboutArea{
+    background-color: #101010;
+    padding: 120px 0;
+
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kevImage{
+width: 500px;
+border: 0px solid #887b7b;
+background-color: rgb(255, 255, 255);
+border-radius: 9px;
+
+}
+
+
+.aboutInner{
+    text-align: initial;
+    width: 541px;
+}
+
+h1{
+    color: white;
+    font-size: 3.5rem;
+    
+}
+
+.description{
+    color: rgba(198,201,216,.75);
+    font-size: 18px;
+}
+.descriptionOnTabs{
+    color: rgba(198,201,216,.75);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tabs{
+    border-bottom: none;
+    width: 459px;
+    text-align: initial;
+}
+
+.innerText{
+    font-weight: 300;
+}
+
+.infoWidth{
+    width: 500px;
+}
+
+
+
+
+
+

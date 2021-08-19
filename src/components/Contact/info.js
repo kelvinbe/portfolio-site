@@ -16,15 +16,6 @@ export function Skills(props) {
         <p className={styles.descriptionOnTabs}>
           Django - <span className={styles.innerText}>Buliding Scalable API using Django and Python</span>
         </p>
-        <p className={styles.descriptionOnTabs}>
-          HTML5 - <span className={styles.innerText}>Building Skeleton for web apps</span>
-        </p>
-        <p className={styles.descriptionOnTabs}>
-          CSS3 - <span className={styles.innerText}>Styling Web apps</span>
-        </p>
-        <p className={styles.descriptionOnTabs}>
-          Material UI - <span className={styles.innerText}>CSS Library for building beautiful UI</span>
-        </p>
             
         </div>
     );

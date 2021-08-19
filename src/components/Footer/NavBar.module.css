@@ -1,0 +1,55 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+}
+
+.icons{
+    width: 30px;
+    background-color: antiquewhite;
+    border-radius: 14px ;
+    border-color: black;
+    padding-right: 7px;
+}
+
+.icons:hover{
+    background-color: red;
+}
+
+
+
+.firstNav{
+    margin-left: 77px;
+}
+
+.item{
+    padding-right: 30px !important;
+}
+.item:active{
+    text-decoration: underline !important;
+}
+
+.item:active {
+    color: red
+}
+
+.firstChild{
+    margin-top: 20px
+}
+
+.secondChild{
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+.iconSpacing{
+    margin-right: 20px
+}
+
+.navbar-nav > .active > a { 
+    color: red !important ; 
+}
+
+
+
+
