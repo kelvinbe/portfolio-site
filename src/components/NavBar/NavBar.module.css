@@ -24,7 +24,7 @@
 }
 
 .item{
-    padding-right: 30px !important;
+    padding-right: 15px !important;
 }
 .item:active{
     text-decoration: underline !important;

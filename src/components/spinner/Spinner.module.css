@@ -1,0 +1,8 @@
+.spinner{
+    background-color: #101010;
+}
+
+.tell{
+    display: 'flex';
+    justify-content: center;
+}

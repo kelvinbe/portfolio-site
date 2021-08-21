@@ -8,6 +8,7 @@ import About from './components/About me/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import SpinnerS from './components/spinner/Spinner';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,7 @@ function App() {
 <div className="App">
 <NavBar />
   <Switch> 
+<Route path="/" component={SpinnerS} exact/>
 <Route path="/home" component={Pages} exact/>
 <Route path="/about" component={About} />
 <Route path="/portfolio" component={Portfolio} />

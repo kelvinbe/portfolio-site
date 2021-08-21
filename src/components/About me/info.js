@@ -11,6 +11,9 @@ export function Skills(props) {
           UI/UX Designs - <span className={styles.innerText}>Implementation from figma or any other design tool</span>
         </p>
         <p className={styles.descriptionOnTabs}>
+          Javascript - <span className={styles.innerText}>Building Applications using Javascript language</span>
+        </p>
+        <p className={styles.descriptionOnTabs}>
           React JS - <span className={styles.innerText}>Buliding Beautiful Scalable User Interface using React Framework </span>
         </p>
         <p className={styles.descriptionOnTabs}>
@@ -24,6 +27,9 @@ export function Skills(props) {
         </p>
         <p className={styles.descriptionOnTabs}>
           Material UI - <span className={styles.innerText}>CSS Library for building beautiful UI</span>
+        </p>
+        <p className={styles.descriptionOnTabs}>
+          React Bootstrap - <span className={styles.innerText}>CSS Library for building beautiful UI</span>
         </p>
             
         </div>
