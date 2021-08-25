@@ -1,12 +1,9 @@
-import react from 'react'
+import react, {useState} from 'react'
 import {Spinner} from 'react-bootstrap/'
 import styles from './Spinner.module.css'; 
 
-
-
-
-
 const SpinnerS = () => {
+  const [show, showState] = useState(false)
 
     return (
         <div className={styles.spinner}>
@@ -16,7 +13,7 @@ const SpinnerS = () => {
             </div>
             <div>
               <div className={styles.tell}>
-                <h1 className={styles.h1}>About Me</h1>
+                <h1 className={styles.h1}>Loading...</h1>
                 <p className={styles.description}>
                 <Spinner animation='grow' variant='danger'/>
                 </p>

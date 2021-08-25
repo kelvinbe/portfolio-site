@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './About.module.css'
+import styles from './Contact.module.css'
 import {Form, Button } from 'react-bootstrap';
 import kev from '../../assets/kev.jpg'
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 
@@ -33,27 +34,24 @@ function FormDisplay() {
 
 const Contact = props => {
   return (
-    <div className={styles.aboutArea}>
-      <div className={styles.aboutWrapper}>
-        <div className={styles.aboutContainer}>
-        <div>
+    <Container fluid className={styles.aboutArea}>
+
+        <Row  className={styles.aboutContainer}>
+        <Col xs={12} md={8} lg={6}>
+            <img src={kev} alt="" className={styles.kevImage} />
+          </Col>
+        <Col xs={12} md={8} lg={6}>
             <div className={styles.aboutInner}>
               <h1 className={styles.h1}>Hire Me.</h1>
               <p className={styles.description}>
                 I am available for freelance work. Connect with me via email: <span style={{color: 'white'}}>kelvinbeno526@gmail.com</span>
               </p>
             </div>
-            <div>
               {FormDisplay()}
-            </div>
-          </div>
-          <div>
-            <img src={kev} alt="" className={styles.kevImage} />
-          </div>
-
-        </div>
-      </div>
-    </div>
+          </Col>
+          
+      </Row>
+    </Container>
   );
 };
 

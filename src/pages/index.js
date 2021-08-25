@@ -11,7 +11,7 @@ import Footer from '../components/Footer/Footer';
 
 function Pages(props) {
     return (
-        <div>
+        <div>   
             <Home />
             <About />
             <Portfolio />

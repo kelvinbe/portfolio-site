@@ -18,6 +18,17 @@ border-radius: 9px;
 
 }
 
+@media (max-width: 479px){
+    .kevImage{
+        width: 274px;
+        margin-bottom: 30px;
+    }
+    .description{
+        width: 329px;
+    }
+
+}
+
 
 .aboutInner{
     text-align: initial;
@@ -54,8 +65,14 @@ h1{
     width: 500px;
 }
 
+.formWidth{
+    width: 588px
+}
 
 
 
+@media (max-width: 2000px){
+    
 
+}
 

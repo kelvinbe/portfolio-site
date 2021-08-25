@@ -6,12 +6,14 @@ import Tab from 'react-bootstrap/Tab';
 import kev from '../../assets/kev.jpg'
 import {Skills, Experience, Education} from './info';
 import { useState } from 'react';
+import {Container, Row, Col} from 'react-bootstrap'
 
 
 function ControlledTabs() {
   const [key, setKey] = useState('skills');
 
   return (
+    <Container fluid className={styles.container}>
     <Tabs
       id="controlled-tab-example"
       activeKey={key}
@@ -31,19 +33,19 @@ function ControlledTabs() {
       <Education />
       </Tab>
     </Tabs>
+    </Container>
   );
 }
 
 
 const About = props => {
   return (
-    <div className={styles.aboutArea}>
-      <div className={styles.aboutWrapper}>
-        <div className={styles.aboutContainer}>
-          <div>
+        <Container fluid className={styles.aboutArea}>
+          <Row>
+          <Col xs={12} md={8} lg={6}>
             <img src={kev} alt="" className={styles.kevImage} />
-          </div>
-          <div>
+          </Col>
+          <Col xs={12} md={8} lg={6}>
             <div className={styles.aboutInner}>
               <h1 className={styles.h1}>About Me</h1>
               <p className={styles.description}>
@@ -54,13 +56,10 @@ const About = props => {
                 goal of the client.
               </p>
             </div>
-            <div>
               {ControlledTabs()}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          </Col>
+          </Row>
+        </Container>
   );
 };
 

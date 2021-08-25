@@ -88,3 +88,18 @@ animation: slide 7s linear infinite;
     71% {margin-top: 0px;} 
     100% {margin-top:0px;} 
 }
+
+
+@media (max-width: 479px){
+    .image{
+                height: 884px;
+        }
+
+    .greetings{
+        font-size: 1.5rem !important;
+    }
+
+    .slider div {
+        font-size: 30px;
+    }
+    }

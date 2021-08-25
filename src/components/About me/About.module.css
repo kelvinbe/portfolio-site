@@ -55,7 +55,43 @@ h1{
 }
 
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+@media (max-width: 479px){
+.container {
+    width: 439px !important;
+}
+}
+
+
+@media (max-width: 479px){
+    .kevImage {
+        width: 320px !important;
+    }
+    .infoWidth{
+        width: 341px;
+    }
+    .tabs{
+        width: 300px;
+    }
+    .aboutInner{
+        width: 353px;
+    }
+    }
+
+/* @media (max-width: 479px){
+.aboutArea{
+            padding-right: var(--bs-gutter-x,5.75rem) !important;
+            padding-left: var(--bs-gutter-x,5.75rem) !important;
+    }
+} */
+    
 
 
 

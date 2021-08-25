@@ -2,13 +2,15 @@ import * as React from 'react';
 import dark from '../../assets/dark.jpg'
 import beno from '../../assets/beno.png'
 import styles from './Home.module.css'
+import Me from '../FloatImage/me'
+import { Container } from 'react-bootstrap';
 
 const  Home = (props) => {
   return (
       <div className={styles.parent}>
         <img src={dark} alt="" className={styles.image}/>
         <div className={styles.benoContainer}>
-        <img src={beno} alt="" className={styles.beno}/>
+        <Me />
         </div>
         <div className={styles.wording}>
             <span>WELCOME TO MY WORLD</span>
@@ -22,8 +24,6 @@ const  Home = (props) => {
             </div>
             </div>
             <h1 className={styles.greetings}>based in KENYA.</h1>
-
-
         </div>
     </div>
 
