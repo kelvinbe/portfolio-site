@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './About.module.css'
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
-import kev from '../../assets/kev.jpg'
+import kev from '../../assets/cody.gif'
 import {Skills, Experience, Education} from './info';
 import { useState } from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
@@ -42,7 +42,7 @@ const About = props => {
   return (
         <Container fluid className={styles.aboutArea}>
           <Row>
-          <Col xs={12} md={8} lg={6}>
+          <Col xs={12} md={8} lg={6} style={{paddingRight: '80px'}}>
             <img src={kev} alt="" className={styles.kevImage} />
           </Col>
           <Col xs={12} md={8} lg={6}>

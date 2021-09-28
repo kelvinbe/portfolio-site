@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const projects = [{ proj: { name: 'Overriding Material UI Text Field', stack: `Learn how to overide MUI Text Field`, link: 'https://kevdev.hashnode.dev/overriding-material-ui-text-field', img: mat } }, { proj: { name: 'Apex Charts Integration', stack: 'Learn how to integrate apex charts with React', link: '', img: apex } }, { proj: { name: 'Secure Code', stack: 'Writing secure code', link: '', img: secure } }]
+const projects = [{ proj: { name: 'Overriding Material UI Text Field', stack: `Learn how to overide MUI Text Field`, link: 'https://kevdev.hashnode.dev/overriding-material-ui-text-field', img: mat } }, { proj: { name: 'Flask and Docker', stack: 'Learn get started with Docker and Flask', link: 'https://kevdev.hashnode.dev/getting-started-with-flask-and-docker', img: apex } }, { proj: { name: 'Secure Code', stack: 'Writing secure code', link: '', img: secure } }]
 
 function Blog(props) {
   return (

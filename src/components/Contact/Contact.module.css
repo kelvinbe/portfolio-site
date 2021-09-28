@@ -11,11 +11,12 @@
 }
 
 .kevImage{
-width: 500px;
+width: 100%;
 border: 0px solid #887b7b;
 background-color: rgb(255, 255, 255);
 border-radius: 9px;
-
+filter: grayscale(74%);
+filter: hue-rotate(52deg)
 }
 
 @media (max-width: 479px){

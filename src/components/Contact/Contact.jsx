@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Contact.module.css'
 import {Form, Button } from 'react-bootstrap';
-import kev from '../../assets/kev.jpg'
+import kev from '../../assets/worky.jpg'
 import { Container, Row, Col } from 'react-bootstrap';
 
 
@@ -37,7 +37,7 @@ const Contact = props => {
     <Container fluid className={styles.aboutArea}>
 
         <Row  className={styles.aboutContainer}>
-        <Col xs={12} md={8} lg={6}>
+        <Col xs={12} md={8} lg={6} style={{paddingRight: '80px'}}>
             <img src={kev} alt="" className={styles.kevImage} />
           </Col>
         <Col xs={12} md={8} lg={6}>

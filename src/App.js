@@ -18,7 +18,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
  <BrowserRouter> 
-<div className="App">
+<div className="App" lg={12}>
 <NavBar />
   <Switch> 
 <Route path="/" component={Pages} exact/>
